@@ -1,0 +1,97 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+
+html,body {
+    
+ height: 100%;
+}
+
+h1 {
+    margin-top: 10%;
+    font-size: 50%;
+}
+
+h2 {
+    font-size: 30%;
+}
+
+a:link, a:hover, a:active, a:visited {
+    color: black;
+}
+
+
+aside {
+    float: right;
+}
+
+form {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #D6D6D6;
+    border-style: ridge;
+    border-radius: 2% 2% 2% 2%;
+    margin-left: 5%;    
+    padding: 2%;
+}
+
+.Rosario {
+       font-family:'Rosario', sans-serif;
+}
+
+.Work {
+    font-family:'Work Sans', sans-serif;
+}
+
+.green {
+    background-color: #28a745;
+}
+
+.top {
+    
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+    height: 50px;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: auto;
+}
+
+.symbol {
+    
+    height: 27px;
+    width: auto;
+
+}
+
+.main {
+    margin-top: 3%;
+}
+
+.content {
+    color: black;
+    height: 550px;
+    margin-bottom: 5%;
+    display: block;
+    
+}
+
+
+.presentation {
+    margin-top: 1%;
+    height: 460px;
+    width: 80%;
+}
+
+.back {
+    
+    margin-top: 20%;
+    
+}
+
+#submit {
+    
+    margin-bottom: 5%;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    
+    
+    <meta lang="en" charset="utf-8">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Work+Sans|Rosario" rel="stylesheet">
+      
+    <script>
+      
+
+    function Check() {
+
+    
+       var Result = 0;
+       if (document.getElementById('option12').checked == true) {
+           Result++;
+       }
+        
+        else Result += 0;
+       
+        if (document.getElementById('option23').checked == true) {
+           Result++;
+       }
+       
+          else Result += 0;
+        
+        if (document.getElementById('option31').checked == true) {
+           Result++;
+       }
+       
+          else Result += 0;
+        
+        console.log(Result);
+        
+        document.getElementById("result").innerHTML = Result;
+       
+        
+        document.getElementsByName('radio').checked = false;
+    }
+      
+      </script>
+      
+    <title>DNA test</title>
+    
+  </head>
+    
+    
+    <body>
+    
+        <header class="green top">
+         <h1> LearningFast <img class="symbol" src='assets/symbol.png'  alt="Running Rabbit"> </h1> 
+        </header>
+        <section class="container">
+        <section class="row">
+        <center>
+                  <h2 class="Work"> Assesment time! </h2>
+            
+                  <h4 class="Rosario"> This is not an exam. There is no time limit or grade marks. This was made to test your understanding of the topic. Good luck!</h4> 
+        
+        </center>
+        </section>
+        
+        <section class="row main">
+            
+        <section class="col-8 col-xs-12">
+                  <form>
+                    <strong>In order for the double helix model to explain the known facts
+about DNA, the model's chemical structure had to be able to explain one of these activities: </strong> <br>
+           
+                   <label> <input type="radio" name="radio" id="option11"> send pictures </label>
+                    <br>
+                     <label> <input type="radio" name="radio" id="option12"> replicate itself </label>
+                    <br>
+                     <label> <input type="radio" name="radio" id="option13"> change reality </label>
+                    
+                    
+                    </form><br>
+                    
+                <form> 
+             <strong>   Once the model was proposed, Watson and Crick and many others now turned to
+exploring how DNA went about carrying out one of these functions:</strong> <br>
+               
+                <label> <input type="radio" name="radio" id="option21"> possibility of mutation was never an option </label>
+                    <br>
+                     <label> <input type="radio" name="radio" id="option22"> they knew that carbohydrates were the molecules that carried out day-to-day chores of
+the cell </label>
+                    <br>
+                     <label> <input type="radio" name="radio" id="option23">replication of the DNA was relatively easy to demonstrate with the double helix</label>
+                   </form> <br>
+                
+            <form> 
+                <strong> Determining the DNA structure paved the way for
+these kinds of studies. It opened up the door to the world of one of these:</strong> <br>
+                
+                <label> <input type="radio" name="radio" id="option31"> microbiology </label>
+                    <br>
+                     <label> <input type="radio" name="radio" id="option32"> warcraft </label>
+                    <br>
+                     <label> <input type="radio" name="radio" id="option33">  tanks </label>
+                  </form>   <br>
+                
+               
+            
+         <center>   <button id="submit" onclick="Check()" class="btn btn-success Rosario" name="Submit"> Submit! </button>
+            
+            </center>
+            
+            
+            
+        </section>
+        
+        
+        <aside class="col-4 col-xs-12">
+        
+        <center><a class="back" href="index.html" target="_blank"><button id="return" name="Get Back" class="back btn btn-success Rosario "> Repeat this class! </button></a> <br>
+        <a class="back" href="index4.html" target="_blank"><button id="return" name="Get Back" class="back btn btn-success Rosario "> Go next! </button></a> <br>
+        <img src="assets/dna.png" alt="Human DNA" width="30%"> <br>
+            
+            <h2 class="Rosario"> <strong>Your result:</strong></h2><br>
+            <h2 id="result"></h2></center>
+        
+        </aside>
+        
+        </section>
+       </section>
+        <footer >
+        
+          
+        </footer>
+    
+    
+    
+    </body>
+    
+    
+</html>
